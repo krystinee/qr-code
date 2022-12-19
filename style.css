@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 222, 248);
+}
+
+.qr-component {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 250px auto;
+    padding: 1em;
+    border-radius: 1.5rem;
+    width: 46%;
+}
+
+.qr-component img { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: .75rem;
+}
+
+h1, p {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: .5rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    color: rgb(125, 123, 123);
+}
+
+.attribution {
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
