@@ -6,6 +6,26 @@ body {
     background-color: rgb(200, 222, 248);
 }
 
+section, .qr-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+h1 {
+    font-size: .8rem;
+}
+
+p {
+    font-size: .65rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
 .qr-component {
     background-color: white;
     display: flex;
@@ -49,3 +69,5 @@ p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
+}
+
