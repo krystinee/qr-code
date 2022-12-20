@@ -1,3 +1,17 @@
+/*reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }   
+
+ /*style*/
+ main {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
 body {
     width: 100%;
     display: flex;
@@ -5,40 +19,19 @@ body {
     align-items: center;
     background-color: rgb(200, 222, 248);
 }
-
-section, .qr-component {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    padding: auto;
-}
-
-h1 {
-    font-size: .8rem;
-}
-
-p {
-    font-size: .65rem;
-}
-
-
-@media screen and (max-width: 1200px) {
-    
 .qr-component {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 250px auto;
     padding: 1em;
     border-radius: 1.5rem;
-    width: 46%;
+    gap: .5rem;
+    max-width: 280px;
 }
 
-.qr-component img { 
+.qr-component, img { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,19 +48,21 @@ h1, p {
     text-align: center;
 }
 
-h1 {
-    margin-bottom: .5rem;
-}
-
 p {
     margin-bottom: 1.5rem;
     color: rgb(125, 123, 123);
 }
 
-.attribution {
+
+footer {
     margin-bottom: 2.5rem;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: .75rem;
 }
-}
+
+
+
 
